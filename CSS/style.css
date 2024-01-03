@@ -1,0 +1,96 @@
+*{
+      margin: 0;
+      padding: 0;
+      outline: 0;
+      box-sizing: border-box;
+}
+body{
+      font-family: sans-serif;
+      background-color:#0E0E0E ;
+}
+ul li, a{
+      text-decoration: none;
+}
+li{
+      list-style-type: none;
+}
+a{
+      text-transform: capitalize;
+      font-size: 20px;
+      
+}
+.container{
+      width: 1170px;
+      margin: auto;
+}
+.row{
+      display: flex;
+      flex-wrap: wrap;
+}
+/* navbar start */
+.navbar{
+      justify-content: space-between;
+      background-color: #1B1B1B;
+      padding: 10px;
+}
+.navbar h2{
+      text-transform: capitalize;
+      color: #ffff;
+      font-size: 40px;
+      font-family: 600;
+}
+a{
+      color: #ffff;
+      letter-spacing: 2px;
+      font-weight: 600;
+      padding:0px 12px;
+}
+ul{
+      margin-top: 12px;
+}
+/* nav section close */
+/* bannnar section start */
+#bannar{
+      position: relative;
+}
+.bannar_img{
+      background-image: url(./../images/slr-camera-3752509_640.jpg);
+      background-repeat: no-repeat;
+      width: 1170px;
+      height: 520px;
+      background-size: cover;
+      background-position: center;
+
+}
+.bannar_items{
+      position: absolute;
+      top:160px;
+      right:27px;
+}
+.bannar_items h1{
+      font-size: 45px;text-align: center;
+      color:#1B1B1B;
+      font-family: sans-serif;
+      font-weight: 600;
+      line-height: 65px;
+      text-transform: capitalize;
+}
+.btn{
+      position: absolute;
+      top:178px;
+      right: 106px;
+}
+.btn a{
+      border: 2px solid black;
+      font-size: 20px;
+      letter-spacing: 2;
+      padding: 15px 24px;
+      margin-left: 30px;
+      border-radius: 10px;
+      transition: .5s;
+}
+.btn a:hover{
+      background-color: #ffff;
+      color: #0E0E0E;
+      box-shadow: 2px 2px 5px black;
+}
